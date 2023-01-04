@@ -6,6 +6,11 @@
     font-family: 'Fredoka', Courier, monospace;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 .main {
     height: 100vh;
     width: 100%;
@@ -70,10 +75,12 @@ h1 {
     font-size: 80px;
 }
 
-.name h3 {
+.animation {
     color: #ffffff;
     font-size: 35px;
+    
 }
+
 
 
 section {
