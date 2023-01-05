@@ -38,10 +38,6 @@ span {
     font-size: 20px;
 }
 
-.portifolio span {
-    color: #FF1493;
-}
-
 
 li {
     color: #ffffff;
@@ -59,7 +55,7 @@ li:hover {
     outline: none;
 }
 
-.menu{
+.menu {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -78,7 +74,7 @@ h1 {
 .animation {
     color: #ffffff;
     font-size: 35px;
-    
+
 }
 
 
@@ -228,4 +224,251 @@ footer p {
     transition: 0.5s;
     outline: none;
 
+}
+
+@media only screen and (max-width: 920px) {
+    .main {
+        background-image: url(./assets/background600px.png);
+    }
+
+    h1 {
+
+        font-size: 70px;
+    }
+
+    .animation {
+
+        font-size: 30px;
+
+    }
+
+    section {
+        padding: 50px 10%;
+
+    }
+
+    section img {
+        height: 250px;
+    }
+
+    section div h2 {
+        font-size: 30px;
+    }
+
+    section div p {
+        font-size: 12px;
+        margin: 35px 0 40px 0;
+    }
+
+    section div button {
+        height: 40px;
+        width: 150px;
+
+    }
+
+    .projects {
+        padding: 50px 0 100px 0;
+
+    }
+
+    .projects h2 {
+        font-size: 50px;
+    }
+
+    .cardsProjects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .card {
+        padding: 20px 35px;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 835px) {
+    .main {
+        background-size: 950px;
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .main {
+        background-size: 700px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .main {
+        background-image: url(./assets/background600px.png);
+        background-size: 950px;
+    }
+
+    .portifolio {
+        font-size: 17px;
+    }
+
+
+    li {
+        font-size: 16px;
+    }
+
+    h1 {
+
+        font-size: 50px;
+    }
+
+    .animation {
+
+        font-size: 20px;
+
+    }
+
+    section {
+        padding: 50px 10%;
+
+    }
+
+    section img {
+        height: 200px;
+    }
+
+    section div h2 {
+        font-size: 25px;
+    }
+
+    section div p {
+        font-size: 13px;
+        margin: 25px 0 20px 0;
+    }
+
+    .projects h2 {
+        font-size: 30px;
+    }
+
+
+    .card {
+        height: 350px;
+        width: 275px;
+        padding: 10px 35px;
+    }
+
+    .card img {
+        height: 50px;
+    }
+
+    .card h5 {
+        font-size: 17px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .card a {
+        font-size: 15px;
+    }
+
+ 
+    footer p {
+        font-size: 15px;
+    }
+
+    .social {
+        display: flex;
+        gap: 25px;
+    }
+
+    .social a {
+        height: 50px;
+        width: 50px;
+    }
+
+    .social img {
+        height: 35px;
+    }
+
+    .social img:hover {
+        transform: scale(1.2);
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main {
+        background-image: url(./assets/background600px.png);
+        background-size: 800px;
+    }
+
+    .portifolio {
+        font-size: 15px;
+    }
+
+
+    li {
+        font-size: 12px;
+    }
+
+    h1 {
+
+        font-size: 35px;
+    }
+
+    .animation {
+
+        font-size: 14px;
+
+    }
+
+    section img {
+        height: 125px;
+    }
+
+    section div h2 {
+        font-size: 18px;
+    }
+
+    section div p {
+        font-size: 10px;
+        margin: 10px 0 15px 0;
+    }
+
+    .projects h2 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
+        margin: 10px 0 15px 0;
+    }
+
+    .social a {
+        height: 30px;
+        width: 30px;
+    }
+
+    .social img {
+        height: 20px;
+    }
+
+    .social img:hover {
+        transform: scale(1.2);
+
+    }
+}
+
+@media only screen and (max-width: 408px) {
+
+    .portifolio {
+        font-size: 14px;
+    }
+
+
+    li {
+        font-size: 11px;
+    }
 }
