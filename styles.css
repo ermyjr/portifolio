@@ -464,11 +464,11 @@ footer p {
 @media only screen and (max-width: 408px) {
 
     .portifolio {
-        font-size: 14px;
+        font-size: 13px;
     }
 
 
     li {
-        font-size: 11px;
+        font-size: 10px;
     }
 }
